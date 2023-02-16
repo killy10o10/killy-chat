@@ -1,9 +1,10 @@
 import Navbar from "./Navbar";
+import Search from "./Search.jsx";
 
 const Sidebar = () => (
     <div className="sidebar">
         <Navbar/>
-        <h3>sidebar</h3>
+        <Search />
     </div>
 );
 
