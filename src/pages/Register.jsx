@@ -1,3 +1,6 @@
+import Add from '../assets/images/addAvatar.png'
+import Login from './Login'
+
 function Register() {
   return(
     <div className="formContainer">
@@ -8,10 +11,14 @@ function Register() {
           <input type="text" placeholder="user name"/>
           <input type="email" placeholder="email" />
           <input type="password" placeholder="password" />
-          <input type="file" />
-          <button>sign Up</button>
+          <label>
+            <img src={Add} alt="Add Image" />
+            <span>Add an Avatar</span>
+            <input type="file"  />
+          </label>
+          <button>Sign up</button>
         </form>
-        <p>Already have an account? <a href="#">Login</a> </p>
+        <p>Already have an account?  </p>
       </div>
     </div>
   )
